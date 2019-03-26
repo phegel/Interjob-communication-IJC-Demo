@@ -70,3 +70,7 @@ INSERT INTO MySQL.Person (name,DOB,SSN)
         on p.ID = d.ObjectId  
         where d.ClassName='OBJ.Person'  
         and Version = 0   
+
+**Attention**  
+This solution uses the **actual** content of your Objects / Tables.
+So if the version of the object log is out of date you may see some newer content if additional changes were applied since.
