@@ -1,6 +1,6 @@
-Other Sync-Tools just work from Caché/IRIS to Caché/IRIS.  
-If you need to synchronize your data to some external DB you require some other solution.  
-
+Other Sync-Tools just work from Caché/IRIS to Caché/IRIS. 
+Synchronizing your data to some external DB you requires some other solution.  
+  
 The solution is available in Caché/IRIS since quite some time and works excellent.
 *^OBJ.DSTIME* does the magic.  
 https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=D2IMP_ch_current#D2IMP_C23869
