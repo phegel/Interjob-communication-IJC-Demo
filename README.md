@@ -9,5 +9,7 @@ It consists of 3 sections:
 Operation is simple:
  
 the server starts and listens for requests.
+
 from client various inquiries go to server and get replied.
+
 The whole example is kept very simple and it is your task to add what you require and to adapt the client section to your needs and into your environment.
