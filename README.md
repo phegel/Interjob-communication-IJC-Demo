@@ -14,5 +14,6 @@ by your code to your environment.
 Operation is simple:
 - the server starts and listens for requests.
 - from client various inquires go to server and get replied.
+ 
 The whole example is kept very simple and it is your task to add what you require
 and to adapt the client section to your needs and you environment.
