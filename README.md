@@ -16,4 +16,4 @@ Operation is simple:
 - from client various inquires go to server and get replied.
  
 The whole example is kept very simple and it is your task to add what you require
-and to adapt the client section to your needs and you environment.
+and to adapt the client section to your needs and into your environment.
