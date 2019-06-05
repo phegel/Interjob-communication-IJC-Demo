@@ -21,5 +21,6 @@ and see what happens.
        
 It's clear that for real applications:  
 - the monitor might run in a background tasks  
-- the sensors will do something useful. But this reduces visibility. 
+- the sensors will do something useful.     
+But this reduces visibility. 
  
