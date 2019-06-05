@@ -1,15 +1,24 @@
-This example is extracted from a long-running installation. The purpose is to have a simple monitoring of several servers at a rather primitive level. Just slightly more intelligent than a raw PING. But still easy to integrate. It avoids the overkill of information you are often confronted with while you are just interested in the number of active process or similar basic figures. The example shows a basic skeleton that might be easy filled by you real needs.
-
-It consists of 3 sections:
-
-- the data section to hold server access data
-- the server section to run unattended at the server you want to monitor
-- the client section that is just for demonstration and should be integrated by your code to your environment.
+Earlier I've written about command pipes.  
+This is the internal variant of a PIPE.  
  
-Operation is simple:
- 
-the server starts and listens for requests.
+To make this more tangible and visible for you I prepared a small example
+  
+The scenario is to run a monitoring process that receives 
+input from an unknown number of sensors.  
+(Could be Lab equipment or similar.)  
+The monitor should not poll his sensors nor  
+run in in a hang loop to scan a common global  
+and work independent of any disk access.  
+  
+To try it log into a terminal  
+    DO ##class(IJC.Demo).%Start()  
+The highlander principle applies for this example: There can only be one  
+   
+Next open a new terminal and run
+    DO ##class(IJC.Demo).Sensor("mytext")
+and see what happens.
 
-from client various inquiries go to server and get replied.
-
-The whole example is kept very simple and it is your task to add what you require and to adapt the client section to your needs and into your environment.
+It's clear that for real applications:
+- the monitor might run in a background tasks
+- the sensors will do something useful. But this reduces visibility.
+   
